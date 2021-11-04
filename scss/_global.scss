@@ -91,7 +91,6 @@ body {
   .project-media {
     display: flex;
     flex-direction: row;
-    // justify-content: space-between;
   }
   .projects-card {
     height: 750px;
@@ -136,5 +135,9 @@ body {
   }
   .nav-link:hover::after {
     width: 100%;
+  }
+  .contact-card {
+    margin-left: 30px;
+    margin-right: 20px;
   }
 }
