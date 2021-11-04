@@ -1,6 +1,13 @@
 body {
   overflow-x: hidden !important;
   font-family: "Lato", sans-serif;
+  background-color: #d6d6d4;
+}
+
+.headers {
+  color: $brand-color;
+  text-align: center;
+  margin: 25px;
 }
 
 // * {

@@ -117,6 +117,13 @@ body {
 body {
   overflow-x: hidden !important;
   font-family: "Lato", sans-serif;
+  background-color: #d6d6d4;
+}
+
+.headers {
+  color: #2d364e;
+  text-align: center;
+  margin: 25px;
 }
 
 .container {
@@ -272,11 +279,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 180px;
+  padding-bottom: 130px;
 }
 
 .banner h1 {
-  padding-top: 32px;
+  padding-top: 10px;
   margin: 0;
   color: white;
   font-size: 60px;
@@ -405,6 +412,41 @@ body {
   color: rgba(30, 221, 136, 0.8);
   padding-left: 10px;
   text-shadow: -1px -1px 0 #fff;
+}
+
+.arrow {
+  font-size: 2.5rem;
+  color: rgba(30, 221, 136, 0.8);
+  -webkit-transition-duration: 0.9s;
+          transition-duration: 0.9s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.down-arrow {
+  margin-top: 70px;
+}
+
+.inner-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .btn-flat {
@@ -570,6 +612,7 @@ body {
           box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.8);
   width: 500px;
   padding: 50px;
+  margin-bottom: 50px;
 }
 
 input {

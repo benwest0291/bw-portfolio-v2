@@ -5,11 +5,11 @@
   background: linear-gradient(90deg, $brand-color, #8c93a6);
   display: flex;
   justify-content: center;
-  padding-bottom: 180px;
+  padding-bottom: 130px;
 }
 
 .banner h1 {
-  padding-top: 32px;
+  padding-top: 10px;
   margin: 0;
   color: white;
   font-size: 60px;
@@ -88,4 +88,27 @@
   color: rgba(30, 221, 136, 0.8);
   padding-left: 10px;
   text-shadow: -1px -1px 0 #fff;
+}
+
+.arrow {
+  font-size: 2.5rem;
+  color: rgba(30, 221, 136, 0.8);
+  transition-duration: 0.9s;
+  transition-property: transform;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  transform: rotate(360deg);
+}
+
+.down-arrow {
+  margin-top: 70px;
+}
+
+.inner-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
