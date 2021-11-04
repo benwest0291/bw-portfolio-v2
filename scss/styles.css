@@ -119,6 +119,12 @@ body {
   background-color: #d6d6d4;
 }
 
+.ben-col-about {
+  color: rgba(30, 221, 136, 0.8);
+  padding-left: 8px;
+  text-shadow: -1px -1px 0 #fff;
+}
+
 .headers {
   color: #2d364e;
   text-align: center;
