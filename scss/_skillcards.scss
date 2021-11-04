@@ -1,0 +1,19 @@
+.skills {
+  background: linear-gradient(10deg, $brand-color, #8c93a6);
+  border-radius: 25px 25px;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.8);
+  min-width: 450px;
+}
+
+.skill-list {
+  height: 200px;
+  width: 150px;
+  margin: 20px;
+}
+
+.skill-list-group {
+  display: flex;
+  align-items: row;
+  justify-content: space-evenly;
+}
