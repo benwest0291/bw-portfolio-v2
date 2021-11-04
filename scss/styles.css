@@ -1,6 +1,6 @@
 .navbar-lewagon {
-  background: -webkit-gradient(linear, left top, right top, from(#2d364e), to(#8C93A6));
-  background: linear-gradient(90deg, #2d364e, #8C93A6);
+  background: -webkit-gradient(linear, left top, right top, from(#2d364e), to(#8c93a6));
+  background: linear-gradient(90deg, #2d364e, #8c93a6);
   padding: 18px;
   width: 100%;
 }
@@ -33,12 +33,12 @@
 }
 
 .navbar-toggler {
-  background-color: #1EDD88 !important;
+  background-color: #1edd88 !important;
   border: solid 2px #fff !important;
 }
 
 .nav-item .nav-link:hover {
-  color: #1EDD88 !important;
+  color: #1edd88 !important;
 }
 
 .sticky {
@@ -273,7 +273,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 180px;
-  border-radius: 0 0 15px 15px;
 }
 
 .banner h1 {
@@ -295,7 +294,7 @@ body {
   margin: 0;
   text-align: center;
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
