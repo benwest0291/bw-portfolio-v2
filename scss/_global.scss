@@ -10,11 +10,6 @@ body {
   margin: 25px;
 }
 
-// * {
-//   outline: 1px solid red !important;
-
-// }
-
 .container {
   width: 100 vw;
   display: flex;
@@ -35,7 +30,7 @@ body {
   color: #fff;
   padding: 25px;
   border-radius: 25px 25px;
-  box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.8);
+  box-shadow: 0px 5px 5px 5px rgba(30, 221, 136, 0.8);
   width: 500px;
 }
 
@@ -125,7 +120,7 @@ body {
   .about-description-2 {
     padding-top: 40px;
   }
-  .nav-link:after {
+  .nav-link::after {
     content: "";
     display: block;
     width: 0;
