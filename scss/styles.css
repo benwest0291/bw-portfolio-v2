@@ -526,19 +526,6 @@ body {
           justify-content: space-evenly;
 }
 
-.headers-learning {
-  text-align: center;
-  margin-top: 20px;
-  color: #fff;
-}
-
-.skill-list-learning {
-  height: 147px;
-  width: 147px;
-  margin: 20px;
-  margin-bottom: 42px;
-}
-
 .projects {
   margin: 20px;
   padding: 25px;
@@ -630,7 +617,6 @@ body {
 }
 
 .freelance-card {
-  margin-top: 30px;
   text-align: center;
   font-size: 20px;
   background: #2d364e;
@@ -640,6 +626,7 @@ body {
   -webkit-box-shadow: 0px 5px 5px 5px rgba(30, 221, 136, 0.8);
           box-shadow: 0px 5px 5px 5px rgba(30, 221, 136, 0.8);
   width: 500px;
+  height: 550px;
 }
 
 .freelance-img {
