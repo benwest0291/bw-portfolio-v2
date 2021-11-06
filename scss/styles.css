@@ -182,7 +182,6 @@ body {
 .about-description-2 {
   margin-left: 35px;
   margin-right: 35px;
-  padding-top: 35px;
 }
 
 .about-description {
@@ -258,9 +257,6 @@ body {
   }
   .navbar-lewagon .navbar-brand img {
     width: 280px;
-  }
-  .about-description-2 {
-    padding-top: 40px;
   }
   .nav-link::after {
     content: "";
@@ -513,8 +509,8 @@ body {
 }
 
 .skill-list {
-  height: 200px;
-  width: 150px;
+  height: 147px;
+  width: 147px;
   margin: 20px;
 }
 
@@ -528,6 +524,19 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.headers-learning {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.skill-list-learning {
+  height: 147px;
+  width: 147px;
+  margin: 20px;
+  margin-bottom: 42px;
 }
 
 .projects {
@@ -637,7 +646,8 @@ body {
   width: 290px;
   border: 2px solid #fff;
   border-radius: 10px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .contact-card {

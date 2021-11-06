@@ -55,7 +55,6 @@ body {
 .about-description-2 {
   margin-left: 35px;
   margin-right: 35px;
-  padding-top: 35px;
 }
 
 .about-description {
@@ -122,9 +121,9 @@ body {
   .navbar-lewagon .navbar-brand img {
     width: 280px;
   }
-  .about-description-2 {
-    padding-top: 40px;
-  }
+  // .about-description-2 {
+  //   padding-top: 40px;
+  // }
   .nav-link::after {
     content: "";
     display: block;
