@@ -4,6 +4,7 @@
   align-items: center;
   box-shadow: 0px 5px 5px 5px rgba(30, 221, 136, 0.8);
   min-width: 450px;
+  height: 960px;
 }
 
 .skill-list {
@@ -15,5 +16,21 @@
 .skill-list-group {
   display: flex;
   align-items: row;
+  justify-content: space-evenly;
+}
+
+.skills-learning {
+  background: $brand-color;
+  border-radius: 25px 25px;
+  align-items: center;
+  box-shadow: 0px 5px 5px 5px rgba(30, 221, 136, 0.8);
+  min-width: 450px;
+  height: 190px;
+}
+
+.skill-list-group-learning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
 }
