@@ -50,6 +50,9 @@
 .card-buttons-trek {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .projects-img-weather {
